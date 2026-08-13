@@ -1,0 +1,29 @@
+/* ============================================================
+   Tailwind CSS overrides & custom styles for the Mind-Map tree
+   ============================================================ */
+
+@layer utilities {
+  .mm-node {
+    animation: mmFadeSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+
+@keyframes mmFadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Hide scrollbars but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

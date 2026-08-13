@@ -1,0 +1,324 @@
+Running 2.9.4 (2026-01-22 14:08:50) with PHP 8.3.30 on Windows NT / 10.0
+Reading ./composer.json (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel\composer.json)
+Loading config file C:/Users/user/AppData/Roaming/Composer/config.json
+Loading config file C:/Users/user/AppData/Roaming/Composer/auth.json
+Loading config file ./composer.json (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel\composer.json)
+Checked CA file /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem does not exist or it is not a file.
+Checked directory /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem does not exist or it is not a directory.
+Checked CA file /etc/pki/tls/certs/ca-bundle.crt does not exist or it is not a file.
+Checked directory /etc/pki/tls/certs/ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /etc/ssl/certs/ca-certificates.crt does not exist or it is not a file.
+Checked directory /etc/ssl/certs/ca-certificates.crt does not exist or it is not a directory.
+Checked CA file /etc/ssl/ca-bundle.pem does not exist or it is not a file.
+Checked directory /etc/ssl/ca-bundle.pem does not exist or it is not a directory.
+Checked CA file /usr/ssl/certs/ca-bundle.crt does not exist or it is not a file.
+Checked directory /usr/ssl/certs/ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /opt/local/share/curl/curl-ca-bundle.crt does not exist or it is not a file.
+Checked directory /opt/local/share/curl/curl-ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /usr/local/share/curl/curl-ca-bundle.crt does not exist or it is not a file.
+Checked directory /usr/local/share/curl/curl-ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /usr/share/ssl/certs/ca-bundle.crt does not exist or it is not a file.
+Checked directory /usr/share/ssl/certs/ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /etc/ssl/cert.pem does not exist or it is not a file.
+Checked directory /etc/ssl/cert.pem does not exist or it is not a directory.
+Checked CA file /usr/local/etc/openssl/cert.pem does not exist or it is not a file.
+Checked directory /usr/local/etc/openssl/cert.pem does not exist or it is not a directory.
+Checked CA file /usr/local/etc/openssl@1.1/cert.pem does not exist or it is not a file.
+Checked directory /usr/local/etc/openssl@1.1/cert.pem does not exist or it is not a directory.
+Checked CA file /opt/homebrew/etc/openssl@3/cert.pem does not exist or it is not a file.
+Checked directory /opt/homebrew/etc/openssl@3/cert.pem does not exist or it is not a directory.
+Checked CA file /opt/homebrew/etc/openssl@1.1/cert.pem does not exist or it is not a file.
+Checked directory /opt/homebrew/etc/openssl@1.1/cert.pem does not exist or it is not a directory.
+Checked CA file /etc/pki/tls/certs does not exist or it is not a file.
+Checked directory /etc/pki/tls/certs does not exist or it is not a directory.
+Checked CA file /etc/ssl/certs does not exist or it is not a file.
+Checked directory /etc/ssl/certs does not exist or it is not a directory.
+Checked CA file C:\Users\user\AppData\Local\Temp\opeEF64.tmp: valid
+Executing command (CWD): git --version
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): git branch -a --no-color --no-abbrev -v
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): git describe --exact-match --tags
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): git rev-list --no-commit-header --format=%H -n1 HEAD --no-show-signature
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): hg branch
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): fossil branch list
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): fossil tag list
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): svn info --xml
+Failed to initialize global composer: Composer could not find the config file: C:/Users/user/AppData/Roaming/Composer/composer.json
+
+Reading C:/Users/user/AppData/Local/Composer/repo/https---repo.packagist.org/packages.json from cache
+Downloading https://repo.packagist.org/packages.json if modified
+[304] https://repo.packagist.org/packages.json
+Reading C:/Users/user/AppData/Local/Composer/repo/https---repo.packagist.org/provider-laravel~sanctum.json from cache
+Downloading https://repo.packagist.org/p2/laravel/sanctum.json if modified
+[304] https://repo.packagist.org/p2/laravel/sanctum.json
+./composer.json has been updated
+Reading ./composer.json (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel\composer.json)
+Loading config file C:/Users/user/AppData/Roaming/Composer/config.json
+Loading config file C:/Users/user/AppData/Roaming/Composer/auth.json
+Loading config file ./composer.json (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel\composer.json)
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): git branch -a --no-color --no-abbrev -v
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): git describe --exact-match --tags
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): git rev-list --no-commit-header --format=%H -n1 HEAD --no-show-signature
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): hg branch
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): fossil branch list
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): fossil tag list
+Executing command (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel): svn info --xml
+Failed to initialize global composer: Composer could not find the config file: C:/Users/user/AppData/Roaming/Composer/composer.json
+
+Running composer update laravel/sanctum
+Reading ./composer.lock (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel\composer.lock)
+Loading composer repositories with package information
+Reading C:/Users/user/AppData/Local/Composer/repo/https---repo.packagist.org/packages.json from cache
+Downloading https://repo.packagist.org/packages.json if modified
+[304] https://repo.packagist.org/packages.json
+Reading C:/Users/user/AppData/Local/Composer/repo/https---repo.packagist.org/provider-laravel~sanctum.json from cache
+Downloading https://repo.packagist.org/p2/laravel/sanctum.json if modified
+[304] https://repo.packagist.org/p2/laravel/sanctum.json
+Built pool.
+Running security advisory pool filter.
+Reading C:/Users/user/AppData/Local/Composer/repo/https---repo.packagist.org/provider-laravel~sanctum.json from cache
+Running pool optimizer.
+Pool optimizer completed in 0.008 seconds
+Found 264 package versions referenced in your dependency graph. 67 (25%) were optimized away.
+Updating dependencies
+Generating rules
+Resolving dependencies through SAT
+Looking at all rules.
+
+Dependency resolution completed in 0.000 seconds
+Analyzed 197 packages to resolve dependencies
+Analyzed 465 rules to resolve dependencies
+Nothing to modify in lock file
+Generating rules
+Resolving dependencies through SAT
+Looking at all rules.
+
+Dependency resolution completed in 0.000 seconds
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Reading ./composer.lock (C:\FAJRIKUN\PROJECT PORTOFOLIO DAN CV\PORTOFOLIO\Dashboard-AR-segmen-ERS\ar-gateway-laravel\composer.lock)
+Package operations: 111 installs, 0 updates, 0 removals
+Installs: doctrine/inflector:2.1.0, doctrine/lexer:3.0.1, dragonmantank/cron-expression:v3.6.0, symfony/deprecation-contracts:v3.7.1, psr/container:2.0.2, fakerphp/faker:v1.24.1, symfony/polyfill-mbstring:v1.38.2, symfony/http-foundation:v7.4.16, fruitcake/php-cors:v1.4.0, symfony/polyfill-php80:v1.37.0, psr/http-message:2.0, psr/http-client:1.0.3, ralouphie/getallheaders:3.0.3, psr/http-factory:1.1.0, guzzlehttp/psr7:2.13.0, guzzlehttp/promises:2.5.2, guzzlehttp/guzzle:7.15.3, guzzlehttp/uri-template:v1.0.10, symfony/polyfill-intl-normalizer:v1.38.0, symfony/polyfill-intl-grapheme:v1.41.0, symfony/polyfill-ctype:v1.37.0, symfony/string:v7.4.15, symfony/service-contracts:v3.7.1, symfony/console:v7.4.16, nunomaduro/termwind:v2.4.0, voku/portable-ascii:2.1.1, phpoption/phpoption:1.9.5, graham-campbell/result-type:v1.1.4, vlucas/phpdotenv:v5.6.4, symfony/css-selector:v7.4.9, tijsverkoyen/css-to-inline-styles:v2.4.0, symfony/var-dumper:v7.4.15, symfony/polyfill-uuid:v1.37.0, symfony/uid:v7.4.9, symfony/routing:v7.4.15, symfony/process:v7.4.13, symfony/polyfill-php86:v1.41.0, symfony/polyfill-php85:v1.41.0, symfony/polyfill-php84:v1.38.1, symfony/polyfill-intl-idn:v1.38.1, symfony/mime:v7.4.16, psr/event-dispatcher:1.0.0, symfony/event-dispatcher-contracts:v3.7.1, symfony/event-dispatcher:v7.4.15, psr/log:3.0.2, egulias/email-validator:4.0.4, symfony/mailer:v7.4.15, symfony/error-handler:v7.4.15, symfony/http-kernel:v7.4.16, symfony/finder:v7.4.14, ramsey/collection:2.1.1, brick/math:0.18.0, ramsey/uuid:4.9.3, psr/simple-cache:3.0.0, symfony/translation-contracts:v3.7.1, symfony/translation:v7.4.16, symfony/polyfill-php83:v1.41.0, psr/clock:1.0.0, symfony/clock:v7.4.8, carbonphp/carbon-doctrine-types:3.2.0, nesbot/carbon:3.13.2, monolog/monolog:3.10.0, league/uri-interfaces:7.8.1, league/uri:7.8.1, league/mime-type-detection:1.17.0, league/flysystem-local:3.31.0, league/flysystem:3.35.2, nette/utils:v4.1.5, nette/schema:v1.3.5, dflydev/dot-access-data:v3.0.3, league/config:v1.2.0, league/commonmark:2.10.0, laravel/serializable-closure:v2.0.15, laravel/prompts:v0.3.22, laravel/framework:v13.25.0, laravel/pail:v1.2.7, laravel/agent-detector:v2.0.2, laravel/pao:v1.1.4, laravel/pint:v1.30.5, laravel/sanctum:v4.3.3, nikic/php-parser:v5.8.0, psy/psysh:v0.12.24, laravel/tinker:v3.0.2, hamcrest/hamcrest-php:v2.1.1, mockery/mockery:1.6.12, filp/whoops:2.18.4, nunomaduro/collision:v8.9.5, staabm/side-effects-detector:1.0.5, sebastian/version:6.0.0, sebastian/type:6.0.4, sebastian/recursion-context:7.0.1, sebastian/object-reflector:5.0.0, sebastian/object-enumerator:7.0.0, sebastian/global-state:8.0.3, sebastian/exporter:7.0.3, sebastian/environment:8.1.2, sebastian/diff:7.0.0, sebastian/comparator:7.1.8, sebastian/cli-parser:4.2.1, phpunit/php-timer:8.0.0, phpunit/php-text-template:5.0.0, phpunit/php-invoker:6.0.0, phpunit/php-file-iterator:6.0.1, theseer/tokenizer:2.0.1, sebastian/lines-of-code:4.0.1, sebastian/complexity:5.0.0, phpunit/php-code-coverage:12.5.7, phar-io/version:3.2.1, phar-io/manifest:2.0.4, myclabs/deep-copy:1.14.0, phpunit/phpunit:12.5.33
+Reading C:/Users/user/AppData/Local/Composer/files/doctrine/inflector/656b3f4af0ba8dadbb18bcbf1e825741bfba578b.zip from cache
+  - Loading doctrine/inflector (2.1.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/doctrine/lexer/16a5c8a6d88bc11d6da175a7b0ff18e504449819.zip from cache
+  - Loading doctrine/lexer (3.0.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/dragonmantank/cron-expression/369da4997665b95f57c6c937d6ebdb4b77740272.zip from cache
+  - Loading dragonmantank/cron-expression (v3.6.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/deprecation-contracts/4b38c947e19afd276ca4427b06df9c85c6876740.zip from cache
+  - Loading symfony/deprecation-contracts (v3.7.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/container/a0a43e15cb16e3ab95a991e1bffc813474b15cdf.zip from cache
+  - Loading psr/container (2.0.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/fakerphp/faker/cd3ee3e52b771fb0718af48c0ecde2cd7f473bdc.zip from cache
+  - Loading fakerphp/faker (v1.24.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-mbstring/7e0e0f8a4da61beb647238b36e5407dfcccee285.zip from cache
+  - Loading symfony/polyfill-mbstring (v1.38.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/http-foundation/35c859d74468a6ca26349f3604026e07d9e8313c.zip from cache
+  - Loading symfony/http-foundation (v7.4.16) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/fruitcake/php-cors/1158044facb9562b3a6cfc303879b660296f1c0c.zip from cache
+  - Loading fruitcake/php-cors (v1.4.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-php80/5726adf1d98471038cbeae462d6f49a7eaeefabf.zip from cache
+  - Loading symfony/polyfill-php80 (v1.37.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/http-message/e8baaf1c5537971c6192d7c56974d81e2ee099c3.zip from cache
+  - Loading psr/http-message (2.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/http-client/8a0eb9bbf4ceddbff9fd328c582c07269c8888ab.zip from cache
+  - Loading psr/http-client (1.0.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/ralouphie/getallheaders/ddc5f4c7ab3d868f5060717336a0d93475d53175.zip from cache
+  - Loading ralouphie/getallheaders (3.0.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/http-factory/3dbec50111f2c1bcf13231bd100d8985d4495287.zip from cache
+  - Loading psr/http-factory (1.1.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/guzzlehttp/psr7/c8eb0f48a534d1e9a06ad375820982a4415b9a62.zip from cache
+  - Loading guzzlehttp/psr7 (2.13.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/guzzlehttp/promises/f9d8b88606ab0f5cc448d11cd7a04e88fa3849bd.zip from cache
+  - Loading guzzlehttp/promises (2.5.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/guzzlehttp/guzzle/4fa3ce4cee05349cd1f68a8e2db4334830069733.zip from cache
+  - Loading guzzlehttp/guzzle (7.15.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/guzzlehttp/uri-template/01efc700e60ac56a9f170e6d5980c49f312700cf.zip from cache
+  - Loading guzzlehttp/uri-template (v1.0.10) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-intl-normalizer/62dc16c59f281814a2eefdeb26c97207b5e7b2ff.zip from cache
+  - Loading symfony/polyfill-intl-normalizer (v1.38.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-intl-grapheme/b5c5e673877febc30eddd5af03da89f6693736bb.zip from cache
+  - Loading symfony/polyfill-intl-grapheme (v1.41.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-ctype/073aefdee0b8090e5fd5ba584972967d92c8a9f4.zip from cache
+  - Loading symfony/polyfill-ctype (v1.37.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/string/5b3148bc1aa329bdc2d8bf1d00ad87ce573f1b54.zip from cache
+  - Loading symfony/string (v7.4.15) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/service-contracts/72a9027702cfd5113dfbf9ebe31f097bd5bcbf12.zip from cache
+  - Loading symfony/service-contracts (v3.7.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/console/7e54f61bb34f40605acc2a2f48588370eb3b52fd.zip from cache
+  - Loading symfony/console (v7.4.16) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/nunomaduro/termwind/4a2a023672cce6e15816f8b17ea60f7d291a9df4.zip from cache
+  - Loading nunomaduro/termwind (v2.4.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/voku/portable-ascii/41fd2954d353b6f48d93c10949acc40e9fa187b2.zip from cache
+  - Loading voku/portable-ascii (2.1.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phpoption/phpoption/43e8b20d78e495256024784f99c6c21805103630.zip from cache
+  - Loading phpoption/phpoption (1.9.5) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/graham-campbell/result-type/a1f84f24adc049be760154bdf697ecd55b219a5b.zip from cache
+  - Loading graham-campbell/result-type (v1.1.4) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/vlucas/phpdotenv/bb7b651b32305b85575ac3941bea797e0a2ed037.zip from cache
+  - Loading vlucas/phpdotenv (v5.6.4) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/css-selector/3b80dfdac9816cd57ac7abd29a0dfabab1f761e4.zip from cache
+  - Loading symfony/css-selector (v7.4.9) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/tijsverkoyen/css-to-inline-styles/491a0c1ac48e787202723cfde4e1dbf3b17c78ec.zip from cache
+  - Loading tijsverkoyen/css-to-inline-styles (v2.4.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/var-dumper/9987b82b4439ad51f48c60b21efff4c3747a7b8d.zip from cache
+  - Loading symfony/var-dumper (v7.4.15) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-uuid/b08eaba1f7397eeb9141471f33105bf5cccd5d80.zip from cache
+  - Loading symfony/polyfill-uuid (v1.37.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/uid/33ad602a597a8cfb19980a5be007c246afa0beae.zip from cache
+  - Loading symfony/uid (v7.4.9) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/routing/bcd8bd2d7ae73ee0a840631b5566fe84c2318ffc.zip from cache
+  - Loading symfony/routing (v7.4.15) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/process/27c102cf2d82dc10eef14bf4f14cd86966f5d25f.zip from cache
+  - Loading symfony/process (v7.4.13) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-php86/82f57ff3ee8487c14cd1a76a3acf2f0fe592b15d.zip from cache
+  - Loading symfony/polyfill-php86 (v1.41.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-php85/5b13c025e0e63a86bcd206239eaa8df7f730ded9.zip from cache
+  - Loading symfony/polyfill-php85 (v1.41.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-php84/eaa6f4262e23565b4096ea4b15e3af12cb03e3d8.zip from cache
+  - Loading symfony/polyfill-php84 (v1.38.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-intl-idn/2263c1b9f5df3f830fa56826514b4b6980e6b1b7.zip from cache
+  - Loading symfony/polyfill-intl-idn (v1.38.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/mime/aa71fa9ec111ff3b494a0f603af3cd7649509402.zip from cache
+  - Loading symfony/mime (v7.4.16) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/event-dispatcher/8f60a8cd1b7ff4e8f9782d70d78dee877a526529.zip from cache
+  - Loading psr/event-dispatcher (1.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/event-dispatcher-contracts/f5160938c3a73697560ec0835694ab95143f9035.zip from cache
+  - Loading symfony/event-dispatcher-contracts (v3.7.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/event-dispatcher/d01ee1f58b1e710f859900b117d960a8bf7d9f20.zip from cache
+  - Loading symfony/event-dispatcher (v7.4.15) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/log/2961e31604f4f4de116b458f772c4aa21861c5b4.zip from cache
+  - Loading psr/log (3.0.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/egulias/email-validator/2325f9b713443a41bdd9cae876fc640df65c0c85.zip from cache
+  - Loading egulias/email-validator (4.0.4) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/mailer/b1eeffc768336e885e8c149104e744085b5ffb13.zip from cache
+  - Loading symfony/mailer (v7.4.15) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/error-handler/6c226e932bd163b208f5acbe104bd455dbd26fcd.zip from cache
+  - Loading symfony/error-handler (v7.4.15) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/http-kernel/e7eeb09ba3aba1062a3e4d2452139ecb31075fd8.zip from cache
+  - Loading symfony/http-kernel (v7.4.16) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/finder/ffc46da34490c48470a8cc870a211042d941eb0c.zip from cache
+  - Loading symfony/finder (v7.4.14) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/ramsey/collection/435c62c1e67306fd98f8f2041369a0e33486e402.zip from cache
+  - Loading ramsey/collection (2.1.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/brick/math/8c658ebf24997f137e6a392c6afc7fa1959b82df.zip from cache
+  - Loading brick/math (0.18.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/ramsey/uuid/93dac5e5516d8b5cd3640a7f1785675e391417bb.zip from cache
+  - Loading ramsey/uuid (4.9.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/simple-cache/f30344b376a5fb0289c0491e8df6aba973ba12aa.zip from cache
+  - Loading psr/simple-cache (3.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/translation-contracts/0ff8c3d63d5d983a7b63b53fb8f48a431335b1d1.zip from cache
+  - Loading symfony/translation-contracts (v3.7.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/translation/9b8bf11811abceb990400d3fca08144bc3ec0c9e.zip from cache
+  - Loading symfony/translation (v7.4.16) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/polyfill-php83/130f3851bb61093f1c8d54c91dc3db361c2c805a.zip from cache
+  - Loading symfony/polyfill-php83 (v1.41.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psr/clock/82bf02e3a8f1b35169f8d27aa93a171ae387f779.zip from cache
+  - Loading psr/clock (1.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/symfony/clock/bdb8e2e6adcd50d10e984a7c7a8d47d9de0d4a7d.zip from cache
+  - Loading symfony/clock (v7.4.8) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/carbonphp/carbon-doctrine-types/286125b8cb4236eb7b47111dd10174556e6c6c40.zip from cache
+  - Loading carbonphp/carbon-doctrine-types (3.2.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/nesbot/carbon/2d8c8d7215c1102ed6b55f060e44e71b62390d08.zip from cache
+  - Loading nesbot/carbon (3.13.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/monolog/monolog/f122a427be3df67711b2b7eec72424c7885ca351.zip from cache
+  - Loading monolog/monolog (3.10.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/league/uri-interfaces/5bf9f6f92e18c2023b5a7a130aa1cf5c6d905f0c.zip from cache
+  - Loading league/uri-interfaces (7.8.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/league/uri/8595c96878f95bc2aea2b79ae3c4edcd22dfd71d.zip from cache
+  - Loading league/uri (7.8.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/league/mime-type-detection/40ae65d1314b40f3509e5b35badbc7ab92466d63.zip from cache
+  - Loading league/mime-type-detection (1.17.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/league/flysystem-local/44dbfe6eaffc82ddcf3c75d0638ddcf844e258f8.zip from cache
+  - Loading league/flysystem-local (3.31.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/league/flysystem/244ca0e95f0bf08022936629e519d13d6022c587.zip from cache
+  - Loading league/flysystem (3.35.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/nette/utils/849d1b5c3a83d76c2893697e6d905742d39cd735.zip from cache
+  - Loading nette/utils (v4.1.5) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/nette/schema/846a52f603883b496904c9840627de5c9dc38b7c.zip from cache
+  - Loading nette/schema (v1.3.5) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/dflydev/dot-access-data/8e9712a1156060a9ec9f7b0065af4d53d0cda750.zip from cache
+  - Loading dflydev/dot-access-data (v3.0.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/league/config/63acc0c0da84dd8710b3a4e58a6a4e393530da19.zip from cache
+  - Loading league/config (v1.2.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/league/commonmark/44a02d53b276e4c5175262c816ddb19c370108b4.zip from cache
+  - Loading league/commonmark (2.10.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/serializable-closure/c3bfbdfdcd4afe2caae99d5387521cb9bc4b9e2e.zip from cache
+  - Loading laravel/serializable-closure (v2.0.15) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/prompts/e2d3621bd6306d3796f29bb43f26f8dc8b296522.zip from cache
+  - Loading laravel/prompts (v0.3.22) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/framework/35a45f51f013276541b32ab37de07d0c17103e6f.zip from cache
+  - Loading laravel/framework (v13.25.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/pail/157403fa211b2e9ff0d1f5b6001bcb9326fe085d.zip from cache
+  - Loading laravel/pail (v1.2.7) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/agent-detector/9157308bdf4037a24c64cf2c6a057ce26aa90375.zip from cache
+  - Loading laravel/agent-detector (v2.0.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/pao/24256d4adb90d4c01e7a5bf5184020c416143ebb.zip from cache
+  - Loading laravel/pao (v1.1.4) from cache
+  - Downloading laravel/pint (v1.30.5)
+Downloading https://api.github.com/repos/laravel/pint/zipball/fe4148c503a0e266353d61396b79bbf7f35122df
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/sanctum/8fff1bb24f2ec9d6551e8f92480ddc1e4ba3a257.zip from cache
+  - Loading laravel/sanctum (v4.3.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/nikic/php-parser/da1fb1eada44974cbace5b3541c9c3b8c325ee62.zip from cache
+  - Loading nikic/php-parser (v5.8.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/psy/psysh/4808b957ccd63485e90de228240b10b7e99e095d.zip from cache
+  - Loading psy/psysh (v0.12.24) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/laravel/tinker/f35f426127678de877ec4827731ff56bac93a692.zip from cache
+  - Loading laravel/tinker (v3.0.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/hamcrest/hamcrest-php/7ac05900d9d3c4092f0c5ff3f56676f924aca22f.zip from cache
+  - Loading hamcrest/hamcrest-php (v2.1.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/mockery/mockery/1437e1bfd21d9aac832ae175368b2cee0e9d3719.zip from cache
+  - Loading mockery/mockery (1.6.12) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/filp/whoops/ffb10c1355c103bdb6b22ae1a7bf86d208826083.zip from cache
+  - Loading filp/whoops (2.18.4) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/nunomaduro/collision/058566f92df70303341533c751976199af825d0c.zip from cache
+  - Loading nunomaduro/collision (v8.9.5) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/staabm/side-effects-detector/1bf967123c8eab6ad3b7d10ead807723f1487787.zip from cache
+  - Loading staabm/side-effects-detector (1.0.5) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/version/ba4ff1d68050f0cf665d135ced0a2637e63be59d.zip from cache
+  - Loading sebastian/version (6.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/type/6e6361f60b7a4e820c9f28c7a77c36143fb782eb.zip from cache
+  - Loading sebastian/type (6.0.4) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/recursion-context/45821b5dc5df6e2400aa18c483d40f9ed5bf5925.zip from cache
+  - Loading sebastian/recursion-context (7.0.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/object-reflector/602890b33aaff627f68d02bfff6a2b363f3e3c23.zip from cache
+  - Loading sebastian/object-reflector (5.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/object-enumerator/bee562b298c5b98ab26588e2cf25248ce8217ab8.zip from cache
+  - Loading sebastian/object-enumerator (7.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/global-state/9e348e741f58b79f2df8073012417837ae4387f2.zip from cache
+  - Loading sebastian/global-state (8.0.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/exporter/31d728ba8612ab2d075f6bafff192075706bb3ec.zip from cache
+  - Loading sebastian/exporter (7.0.3) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/environment/0454ca72f840da0cc4819db89097ab883f3eda24.zip from cache
+  - Loading sebastian/environment (8.1.2) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/diff/da7ff7c45778375fa9c11b6458da6fd380e9970d.zip from cache
+  - Loading sebastian/diff (7.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/comparator/d6e0f1b0bab7ac8978a107d56e8334084f167170.zip from cache
+  - Loading sebastian/comparator (7.1.8) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/cli-parser/ae7d15d431e8db480cce10703de2449ba74e2f1b.zip from cache
+  - Loading sebastian/cli-parser (4.2.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phpunit/php-timer/ec120c34c02d14e201528246c8860c412c192fbc.zip from cache
+  - Loading phpunit/php-timer (8.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phpunit/php-text-template/132a19675ebebdfe9ab6947348244fdf159e6b08.zip from cache
+  - Loading phpunit/php-text-template (5.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phpunit/php-invoker/66657eb2d304d3cb02b3c5955959cd81d1015ccd.zip from cache
+  - Loading phpunit/php-invoker (6.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phpunit/php-file-iterator/608ee149811d4548e63821e58cea228ecd3e4b8f.zip from cache
+  - Loading phpunit/php-file-iterator (6.0.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/theseer/tokenizer/d6767288336253e685ab2eb0b618adff4d3c0bf6.zip from cache
+  - Loading theseer/tokenizer (2.0.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/lines-of-code/d14fa840790b34439fd0be2b440e2e596e6e4557.zip from cache
+  - Loading sebastian/lines-of-code (4.0.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/sebastian/complexity/88d38dd5739ad1664e6e1d04a082cafd26cff3ed.zip from cache
+  - Loading sebastian/complexity (5.0.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phpunit/php-code-coverage/a2678191351859602646e165c77561776a0b7fdf.zip from cache
+  - Loading phpunit/php-code-coverage (12.5.7) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phar-io/version/1495d1d88b1ae7e031b437037ce96298d897a969.zip from cache
+  - Loading phar-io/version (3.2.1) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phar-io/manifest/76bff606ca30e559b645a1f35d005f1f29c3c86e.zip from cache
+  - Loading phar-io/manifest (2.0.4) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/myclabs/deep-copy/b779fa11206a042f91c9d0810a71e04415cb5c2d.zip from cache
+  - Loading myclabs/deep-copy (1.14.0) from cache
+Reading C:/Users/user/AppData/Local/Composer/files/phpunit/phpunit/26ec00e55262eeb9d430c1a6fcc9adcee1f8e924.zip from cache
+  - Loading phpunit/phpunit (12.5.33) from cache
+[302] https://api.github.com/repos/laravel/pint/zipball/fe4148c503a0e266353d61396b79bbf7f35122df
+Following redirect (1) https://codeload.github.com/laravel/pint/legacy.zip/fe4148c503a0e266353d61396b79bbf7f35122df

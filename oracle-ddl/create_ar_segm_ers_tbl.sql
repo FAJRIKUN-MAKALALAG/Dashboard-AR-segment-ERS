@@ -1,0 +1,191 @@
+CREATE TABLE AR_SEGMEN_ERS_TBL (
+    INVOICE_ID       VARCHAR2(50)   PRIMARY KEY,
+    AGING_CATEGORY    VARCHAR2(20)   DEFAULT '',
+    STATUS_TAGIH      VARCHAR2(40)   DEFAULT '',
+    REGION            VARCHAR2(50)   DEFAULT '',
+    INVOICE_STATUS    VARCHAR2(30)   DEFAULT '',
+    NILAI_M           NUMBER(18, 2)  DEFAULT 0,
+    UIC               VARCHAR2(50)   DEFAULT '',
+    DUE_DATE          VARCHAR2(30)   DEFAULT '',
+    ACTION_PLAN       VARCHAR2(200)  DEFAULT ''
+);
+
+CREATE INDEX IDX_AR_SEGMEN_ERS_TBL_STATUS_TAGIH ON AR_SEGMEN_ERS_TBL (STATUS_TAGIH);
+CREATE INDEX IDX_AR_SEGMEN_ERS_TBL_REGION ON AR_SEGMEN_ERS_TBL (REGION);
+CREATE INDEX IDX_AR_SEGMEN_ERS_TBL_AGE ON AR_SEGMEN_ERS_TBL (AGING_CATEGORY);
+
+INSERT INTO AR_SEGMEN_ERS_TBL (
+    INVOICE_ID,
+    AGING_CATEGORY,
+    STATUS_TAGIH,
+    REGION,
+    INVOICE_STATUS,
+    NILAI_M,
+    UIC,
+    DUE_DATE,
+    ACTION_PLAN
+) VALUES (
+    'INV-2026-001',
+    '0-3 bln',
+    'AR LAYAK TAGIH',
+    'JAKARTA',
+    'SUDAH INVOICED',
+    68.95,
+    'CGA & SEGMEN',
+    'JUNI 2026',
+    'Monitoring bayar'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL (
+    INVOICE_ID,
+    AGING_CATEGORY,
+    STATUS_TAGIH,
+    REGION,
+    INVOICE_STATUS,
+    NILAI_M,
+    UIC,
+    DUE_DATE,
+    ACTION_PLAN
+) VALUES (
+    'INV-2026-002',
+    '4-12 bln',
+    'AR BERMASALAH',
+    'BANDUNG',
+    'SUDAH INVOICED',
+    22.40,
+    'CGA & SEGMEN',
+    'JULI 2026',
+    'Follow up intensif'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL (
+    INVOICE_ID,
+    AGING_CATEGORY,
+    STATUS_TAGIH,
+    REGION,
+    INVOICE_STATUS,
+    NILAI_M,
+    UIC,
+    DUE_DATE,
+    ACTION_PLAN
+) VALUES (
+    'INV-2026-003',
+    '>12 bln',
+    'AR TIDAK LAYAK TAGIH',
+    'SURABAYA',
+    'UNBILLED',
+    14.75,
+    'CGA & SEGMEN',
+    'AGUSTUS 2026',
+    'Write-off review'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-004',
+    '0-3 bln',
+    'AR LAYAK TAGIH',
+    'MEDAN',
+    'SUDAH INVOICED',
+    41.20,
+    'CGA & SEGMEN',
+    'JUNI 2026',
+    'Reminder payment'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-005',
+    '4-12 bln',
+    'AR BERMASALAH',
+    'SEMARANG',
+    'SUDAH INVOICED',
+    18.90,
+    'CGA & SEGMEN',
+    'JULI 2026',
+    'Negotiation follow-up'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-006',
+    '>12 bln',
+    'AR TIDAK LAYAK TAGIH',
+    'BALI',
+    'UNBILLED',
+    8.35,
+    'CGA & SEGMEN',
+    'AGUSTUS 2026',
+    'Escalate for review'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-007',
+    '0-3 bln',
+    'AR LAYAK TAGIH',
+    'JAKARTA',
+    'SUDAH INVOICED',
+    56.10,
+    'CGA & SEGMEN',
+    'JUNI 2026',
+    'Collect by due date'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-008',
+    '4-12 bln',
+    'AR BERMASALAH',
+    'SURABAYA',
+    'SUDAH INVOICED',
+    27.75,
+    'CGA & SEGMEN',
+    'JULI 2026',
+    'Site visit pending'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-009',
+    '>12 bln',
+    'AR TIDAK LAYAK TAGIH',
+    'BANDUNG',
+    'UNBILLED',
+    12.00,
+    'CGA & SEGMEN',
+    'AGUSTUS 2026',
+    'Write-off candidate'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-010',
+    '0-3 bln',
+    'AR LAYAK TAGIH',
+    'YOGYAKARTA',
+    'SUDAH INVOICED',
+    33.45,
+    'CGA & SEGMEN',
+    'JUNI 2026',
+    'Confirm receipt'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-011',
+    '4-12 bln',
+    'AR BERMASALAH',
+    'MALANG',
+    'SUDAH INVOICED',
+    16.80,
+    'CGA & SEGMEN',
+    'JULI 2026',
+    'Second reminder'
+);
+
+INSERT INTO AR_SEGMEN_ERS_TBL VALUES (
+    'INV-2026-012',
+    '>12 bln',
+    'AR TIDAK LAYAK TAGIH',
+    'MAKASSAR',
+    'UNBILLED',
+    5.60,
+    'CGA & SEGMEN',
+    'AGUSTUS 2026',
+    'Close review'
+);
+
+COMMIT;
