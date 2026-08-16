@@ -17,7 +17,7 @@ class ArDashboardController extends Controller
             $source = 'python-engine';
 
             $responsePayload = Cache::remember($cacheKey, 15, function () use (&$source) {
-                $pythonServiceUrl = config('services.python_engine.url', 'http://127.0.0.1:8000/internal/v1/ar-data');
+            $pythonServiceUrl = config('services.python_engine.ar_data', 'http://127.0.0.1:8000/internal/v1/ar-data');
 
                 $response = Http::timeout(5)->acceptJson()->get($pythonServiceUrl);
 
@@ -64,6 +64,68 @@ class ArDashboardController extends Controller
                 'success' => false,
                 'message' => $e->getMessage(),
             ], 500);
+        }
+    }
+
+    public function getTable(Request $request, $table)
+    {
+        try {
+            $pythonUrl = config('services.python_engine.url', 'http://127.0.0.1:8000') . '/internal/v1/tables/' . $table;
+            $response = Http::timeout(5)->acceptJson()->get($pythonUrl);
+            if ($response->failed()) {
+                throw new \Exception('Gagal menghubungi Python Data Engine.');
+            }
+            return response()->json($response->json(), 200);
+        } catch (\Throwable $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
+    }
+
+    public function createRow(Request $request, $table)
+    {
+        try {
+            $pythonUrl = config('services.python_engine.url', 'http://127.0.0.1:8000') . '/internal/v1/tables/' . $table;
+            $response = Http::timeout(5)->acceptJson()->post($pythonUrl, $request->all());
+            if ($response->failed()) {
+                throw new \Exception($response->json()['detail'] ?? 'Gagal membuat data.');
+            }
+            // Clear caching to reflect edits instantly
+            Cache::forget('oracle_ar_data_cache');
+            return response()->json($response->json(), 200);
+        } catch (\Throwable $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
+    }
+
+    public function updateRow(Request $request, $table, $id)
+    {
+        try {
+            $pythonUrl = config('services.python_engine.url', 'http://127.0.0.1:8000') . '/internal/v1/tables/' . $table . '/' . $id;
+            $response = Http::timeout(5)->acceptJson()->put($pythonUrl, $request->all());
+            if ($response->failed()) {
+                throw new \Exception($response->json()['detail'] ?? 'Gagal mengubah data.');
+            }
+            // Clear caching to reflect edits instantly
+            Cache::forget('oracle_ar_data_cache');
+            return response()->json($response->json(), 200);
+        } catch (\Throwable $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
+    }
+
+    public function deleteRow(Request $request, $table, $id)
+    {
+        try {
+            $pythonUrl = config('services.python_engine.url', 'http://127.0.0.1:8000') . '/internal/v1/tables/' . $table . '/' . $id;
+            $response = Http::timeout(5)->acceptJson()->delete($pythonUrl);
+            if ($response->failed()) {
+                throw new \Exception($response->json()['detail'] ?? 'Gagal menghapus data.');
+            }
+            // Clear caching to reflect edits instantly
+            Cache::forget('oracle_ar_data_cache');
+            return response()->json($response->json(), 200);
+        } catch (\Throwable $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
         }
     }
 }

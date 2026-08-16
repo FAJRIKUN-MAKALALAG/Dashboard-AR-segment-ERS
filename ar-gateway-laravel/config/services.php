@@ -36,7 +36,8 @@ return [
     ],
 
     'python_engine' => [
-        'url' => env('PYTHON_ENGINE_URL', 'http://127.0.0.1:8000/internal/v1/ar-data'),
+        'url'      => env('PYTHON_ENGINE_URL', 'http://127.0.0.1:8000'),
+        'ar_data'  => env('PYTHON_ENGINE_URL', 'http://127.0.0.1:8000') . '/internal/v1/ar-data',
     ],
 
 ];

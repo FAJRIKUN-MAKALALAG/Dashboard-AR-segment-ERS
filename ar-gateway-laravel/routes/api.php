@@ -9,6 +9,10 @@ use Illuminate\Support\Str;
 
 Route::middleware(['auth:sanctum', 'throttle:30,1'])->group(function () {
     Route::get('/v1/ar-dashboard', [ArDashboardController::class, 'index']);
+    Route::get('/v1/tables/{table}', [ArDashboardController::class, 'getTable']);
+    Route::post('/v1/tables/{table}', [ArDashboardController::class, 'createRow']);
+    Route::put('/v1/tables/{table}/{id}', [ArDashboardController::class, 'updateRow']);
+    Route::delete('/v1/tables/{table}/{id}', [ArDashboardController::class, 'deleteRow']);
 });
 
 Route::post('/v1/dev-token', function (Request $request) {
