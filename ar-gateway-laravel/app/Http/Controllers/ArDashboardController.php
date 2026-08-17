@@ -11,15 +11,29 @@ class ArDashboardController extends Controller
     public function index(Request $request)
     {
         try {
-            $cacheKey = 'oracle_ar_data_cache';
-            $isCached = Cache::has($cacheKey);
-            $cacheStore = config('cache.default');
-            $source = 'python-engine';
+            // FR-01,02,03: Forward filter params to Python engine
+            $month   = $request->query('month', null);
+            $segment = $request->query('segment', null);
+            $region  = $request->query('region', null);
 
-            $responsePayload = Cache::remember($cacheKey, 15, function () use (&$source) {
-            $pythonServiceUrl = config('services.python_engine.ar_data', 'http://127.0.0.1:8000/internal/v1/ar-data');
+            // Unique cache key per filter combination
+            $filterKey   = md5("{$month}|{$segment}|{$region}");
+            $cacheKey    = "oracle_ar_data_{$filterKey}";
+            $isCached    = Cache::has($cacheKey);
+            $cacheStore  = config('cache.default');
+            $source      = 'python-engine';
 
-                $response = Http::timeout(5)->acceptJson()->get($pythonServiceUrl);
+            $responsePayload = Cache::remember($cacheKey, 10, function () use (&$source, $month, $segment, $region) {
+                $pythonServiceUrl = config('services.python_engine.ar_data', 'http://127.0.0.1:8000/internal/v1/ar-data');
+
+                // Build query params for Python API
+                $params = array_filter([
+                    'month'   => $month,
+                    'segment' => $segment,
+                    'region'  => $region,
+                ]);
+
+                $response = Http::timeout(15)->acceptJson()->get($pythonServiceUrl, $params);
 
                 if ($response->failed()) {
                     throw new \Exception('Gagal menghubungi Python Data Engine Service.');
@@ -35,26 +49,27 @@ class ArDashboardController extends Controller
 
             return response()
                 ->json([
-                'success' => true,
-                'cached' => $isCached,
+                'success'     => true,
+                'cached'      => $isCached,
                 'cache_store' => $cacheStore,
-                'source' => $source,
-                'timestamp' => now()->toIso8601String(),
-                'payload' => $responsePayload,
+                'source'      => $source,
+                'timestamp'   => now()->toIso8601String(),
+                'payload'     => $responsePayload,
             ], 200)
                 ->header('X-AR-Cache', $isCached ? 'HIT' : 'MISS')
                 ->header('X-AR-Source', $source);
         } catch (\Throwable $e) {
+            $cacheKey = 'oracle_ar_data_' . md5('');
             if (Cache::has($cacheKey)) {
                 return response()
                     ->json([
-                        'success' => true,
-                        'cached' => true,
+                        'success'     => true,
+                        'cached'      => true,
                         'cache_store' => config('cache.default'),
-                        'source' => 'stale-cache',
-                        'timestamp' => now()->toIso8601String(),
-                        'warning' => 'Python service unavailable, using last cached payload.',
-                        'payload' => Cache::get($cacheKey),
+                        'source'      => 'stale-cache',
+                        'timestamp'   => now()->toIso8601String(),
+                        'warning'     => 'Python service unavailable, using last cached payload.',
+                        'payload'     => Cache::get($cacheKey),
                     ], 200)
                     ->header('X-AR-Cache', 'STALE')
                     ->header('X-AR-Source', 'stale-cache');
@@ -66,6 +81,7 @@ class ArDashboardController extends Controller
             ], 500);
         }
     }
+
 
     public function getTable(Request $request, $table)
     {
